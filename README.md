@@ -14,8 +14,16 @@ Een overzicht van beschikbare data in het onderwijs
 | Landelijk Centrum Studiekeuze | Nationale Studenten Enquete (NSE) Benchmarkbestand| HBO/WO | Tevredenheidsonderzoek studenten | Jaarlijks | https://lcsk.nl/nse/resultaten/benchmarkbestand/ | |
 | Landelijk Centrum Studiekeuze | Nationale Studenten Enquete (NSE) Instellingsbestand | HBO/WO | Tevredenheidsonderzoek studenten | Jaarlijks | https://nse-portal.crowdtech.com/Account/Signin?ReturnUrl=%2F | Instellingspecifieke data |
 | ROA | hbo-monitor | HBO | Arbeidsmarkt | Jaarlijks half april | | |
+
 ## Addendum
 
+Additionele informatie over bovenstaande tabel staan in het addendum
+
+### NSE
 Voor de NSE heeft Landelijk Centrum Studiekeuze ook een planning overzicht met tijdlijn:
 
 Zie hier de planning voor academisch jaar [2024/25](https://lcsk.nl/wp-content/uploads/2024/09/NSE-2025-planning-extern.pdf)
+
+### Kalender informatieproducten van de Vereniging Hogescholen
+
+Bovenstaande tabel is aangevuld met informatie die gevonden is op de [kalender informatieproducten](https://www.vereniginghogescholen.nl/kennisbank/documentatie/artikelen/kalender-informatieproducten) van de "Vereniging Hogescholen".
