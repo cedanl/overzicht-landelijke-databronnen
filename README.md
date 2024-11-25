@@ -37,6 +37,7 @@ Een overzicht van beschikbare data in het onderwijs
 | DUO | XBRL | HBO | Financiën hogescholen | Jaarlijks half oktober | | |
 | DUO | raho | HBO | Personeel hogescholen | Jaarlijks voorjaar | | |
 | ROA | hbo-monitor | HBO | Arbeidsmarkt | Jaarlijks half april | | |
+| Onderwijsinspecite | Overzicht sectorindeling ho | HBO/WO | Sectoren van opleidingen | Onbekend | | |
 
 # Addendum
 
