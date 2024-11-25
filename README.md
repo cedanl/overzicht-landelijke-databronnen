@@ -38,6 +38,7 @@ Een overzicht van beschikbare data in het onderwijs
 | UNL | Gegevens personeel | WO | Geaggregeerde personeelsgegevens | Jaarlijks | https://www.universiteitenvannederland.nl/downloadbare-gegevens-personeel | |
 
 
+
 # Data
 
 
@@ -45,18 +46,16 @@ Een overzicht van beschikbare data in het onderwijs
 | ------------------------- | --------------- | -------- | ---- | ---------------------- | ---------------- | --- |
 | DUO | 1-cijferHO | HBO/WO | Instroom, Inschrijvingen en diploma's met peildatum 1 oktober | Jaarlijks begin februari | | |
 | DUO | 1-cijferHO | HBO/WO | Studiesucces, uitval en studiewissel | Jaarlijks begin april | | |
-| DUO | RIO (Registratie Instellingen en Opleidingen) | MBO/HBO/WO | Gegevens geaccrediteerde opleidingen | Jaarlijks half oktober | https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/opleidingsgegevens-in-croho/raadplegen-en-downloaden.jsp | |
+| DUO | Adressen instellingen | HBO/WO | Adressen | Jaarlijks | https://www.duo.nl/open_onderwijsdata/hoger-onderwijs/adressen/ | |
+| DUO | RIO (Registratie Instellingen en Opleidingen) | MBO/HBO/WO | Gegevens geaccrediteerde opleidingen (voorheen CROHO) | Jaarlijks half oktober | https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/opleidingsgegevens-in-croho/raadplegen-en-downloaden.jsp | |
 | DUO | Register Onderwijsdeelnemers (ROD) | MBO/HBO/WO | Bekostigingsstatus van studenten van uw instelling | Jaarlijks | https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/bron-controleren/bekostigingsstatus-studenten.jsp | |
-| ROA | hbo-monitor | HBO | Arbeidsmarkt | Jaarlijks half april | | |
-| Onderwijsinspecite | Overzicht sectorindeling ho | HBO/WO | Sectoren van opleidingen | Onbekend | https://www.onderwijsinspectie.nl/documenten/publicaties/2023/02/14/overzicht-sectorindeling-ho | |
+| DUO | Studentgegevens | HBO/WO | Studentdata | Jaarlijks | https://www.duo.nl/open_onderwijsdata/hoger-onderwijs/aantal-studenten/ | |
+| DUO/UNL | Diploma's | WO | Diploma's per academisch jaar | Onbekend | https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten | |
+| DUO/UNL | Ingeschreven studenten per 1 oktober | WO | Ingeschreven studenten per 1 oktober | Onbekend | https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten | |
 | DUO/UNL | Instroom bachelor | WO | Instroomgegevens bachelor | Onbekend | https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten | |
 | DUO/UNL | Instroom master | WO | Instroomgegevens master | Onbekend | https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten | |
-| DUO/UNL | Ingeschreven studenten per 1 oktober | WO | Ingeschreven studenten per 1 oktober | Onbekend | https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten | |
-| DUO/UNL | Diploma's | WO | Diploma's per academisch jaar | Onbekend | https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten | |
-| DUO | Adressen instellingen | HBO/WO | Adressen | Jaarlijks | https://www.duo.nl/open_onderwijsdata/hoger-onderwijs/adressen/ | |
-| DUO | Studentgegevens | HBO/WO | Studentdata | Jaarlijks | https://www.duo.nl/open_onderwijsdata/hoger-onderwijs/aantal-studenten/ | |
-
-
+| Onderwijsinspecite | Overzicht sectorindeling ho | HBO/WO | Sectoren van opleidingen | Onbekend | https://www.onderwijsinspectie.nl/documenten/publicaties/2023/02/14/overzicht-sectorindeling-ho | |
+| ROA | hbo-monitor | HBO | Arbeidsmarkt | Jaarlijks half april | | |
 
 
 
