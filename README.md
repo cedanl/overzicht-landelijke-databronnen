@@ -53,6 +53,12 @@ Een overzicht van beschikbare data in het onderwijs
 | DUO/UNL | Instroom master | WO | Instroomgegevens master | Onbekend | https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten | |
 | DUO/UNL | Ingeschreven studenten per 1 oktober | WO | Ingeschreven studenten per 1 oktober | Onbekend | https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten | |
 | DUO/UNL | Diploma's | WO | Diploma's per academisch jaar | Onbekend | https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten | |
+| DUO | Adressen instellingen | HBO/WO | Adressen | Jaarlijks | https://www.duo.nl/open_onderwijsdata/hoger-onderwijs/adressen/ | |
+| DUO | Studentgegevens | HBO/WO | Studentdata | Jaarlijks | https://www.duo.nl/open_onderwijsdata/hoger-onderwijs/aantal-studenten/ | |
+
+
+
+
 
 # Addendum
 
