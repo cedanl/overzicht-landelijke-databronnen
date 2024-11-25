@@ -4,8 +4,14 @@ Een overzicht van beschikbare data in het onderwijs
 
 | Bron | Gegevensproduct | Doelgroep | Doel | Verspreiding Frequentie | URL voor Download |
 | ------------------------- | --------------- | -------- | ---- | ---------------------- | ---------------- |
-| Centraal Bureau voor de Statistiek (CBS) | Algemene statistieken | WO | Biedt statistische gegevens over het hoger onderwijs in Nederland | Jaarlijks | https://www.cbs.nl/statline/portal?statwaaier=ct1:0 |
-| Dienst Uitvoering Onderwijs (DUO) | Studiefinancieringen en studentenverlof | HBO | Verzorgt informatie over studiefinanciering en studentenverlof | Maandelijks | https://www.duo.nl/over-duo/informatie-voor-onderzoekgegevens.html |
-| Nederlands-Vlaamse Accreditatieorganisatie (NVAO) | Accreditaties | WO | Accredits hogescholen en universiteiten in Nederland | Jaarlijks | https://www.nvao.net/nieuws-en-publicaties/publicaties |
-| Ministerie van Onderwijs, Cultuur en Wetenschap | Beleid en statistiek | HBO | Publiceert beleidsplannen en statistieken over het hoger onderwijs | Periodiek | https://www.minocw.nl/themas/hoger-ondernwijs |
-| SURF | Digitale infrastructuur en diensten | HBO/WO | Biedt digitale infrastructuur en diensten voor hoger onderwijs instellingen | Continu | https://www.surf.nl/over-surf/surf-overzicht |
+| DUO | Register Onderwijsdeelnemers (ROD) | MBO/HBO/WO | Bekostigingsstatus van studenten van uw instelling | Jaarlijks | https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/bron-controleren/bekostigingsstatus-studenten.jsp |
+| Landelijk Centrum Studiekeuze | Nationale Studenten Enquete (NSE) Benchmarkbestand| HBO/WO | Tevredenheidsonderzoek studenten | Jaarlijks | https://lcsk.nl/nse/resultaten/benchmarkbestand/ |
+| Landelijk Centrum Studiekeuze | Nationale Studenten Enquete (NSE) Instellingsbestand | HBO/WO | Tevredenheidsonderzoek studenten | Jaarlijks | https://nse-portal.crowdtech.com/Account/Signin?ReturnUrl=%2F |
+| ??? | Nationale Alumni Enquete (NAE) | WO | Enquete voor masterstudenten | Om het jaar |  |
+
+
+## Addendum
+
+Voor de NSE heeft Landelijk Centrum Studiekeuze ook een planning overzicht met tijdlijn:
+
+Zie hier de planning voor academisch jaar [2024/25](https://lcsk.nl/wp-content/uploads/2024/09/NSE-2025-planning-extern.pdf)
