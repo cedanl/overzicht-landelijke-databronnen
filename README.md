@@ -2,9 +2,11 @@
 Een overzicht van beschikbare data in het onderwijs
 
 ## Table of Contents
+## Table of Contents
 - [Enquete data](#enquete-data)
   - [Landelijk](#landelijk)
   - [Instellingspecifiek](#instellingspecifiek)
+- [Financiële en personeel data](#financiële-en-personeel-data)
 - [Data](#data)
 - [Addendum](#addendum)
 
