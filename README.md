@@ -1,73 +1,73 @@
-# landelijke_data
-Een overzicht van beschikbare data in het onderwijs
+# Landelijke data bronnen
+Een overzicht van beschikbare data uit landelijke (en dus uniforme) bronnen voor onderwijsinstellingen.
 
-## Table of Contents
-## Table of Contents
-- [Enquete data](#enquete-data)
-  - [Landelijk](#landelijk)
-  - [Instellingspecifiek](#instellingspecifiek)
-- [Financiële en personeel data](#financiële-en-personeel-data)
-- [Data](#data)
-- [Addendum](#addendum)
+## Inhoudsopgave
+[...]
 
-# Enquete data
+# Studentgegevens & Onderwijs
 
-## Landelijk
+## Instroom
 
-| Bron | Gegevensproduct | Doelgroep | Doel | Verspreiding Frequentie | URL voor Download | Opmerking(en) |  
-| ------------------------- | --------------- | -------- | ---- | ---------------------- | ---------------- | --- |
-| Centerdata en IVA Onderwijs | Nationale Alumni Enquete (NAE) landelijk databestand | WO | Enquete voor masterstudenten | Om het jaar | https://www.nationale-alumni-enquete.nl/instellingsrapportage/ | | 
-| Landelijk Centrum Studiekeuze | Nationale Studenten Enquete (NSE) Benchmarkbestand| HBO/WO | Tevredenheidsonderzoek studenten | Jaarlijks | https://lcsk.nl/nse/resultaten/benchmarkbestand/ | |
+| Leverancier | Bron | Onderwijstype | Doel | Documentatie URL | CEDA repository | Frequentie | Publieke informatieproducten |
+|-------------|------|---------------|------|-----------------|-----------------|-------------|----------------------------|
+| Studielink | Studielink Telbestand | HBO, WO | Voorlopige aanmeldingen | [Toelichting telbestand](https://www.tignl.eu/downloads/studielink/pvl%20telbestand%20studielink.pdf) | [CEDA instroomprognose](https://github.com/cedanl/studentprognose) | Wekelijks | [UNL - WO bachelor](https://www.universiteitenvannederland.nl/aanmeldingen-bacheloropleidingen)|
+| MBO Voorzieningen | CAMBO | MBO | Voorlopige aanmeldingen | [Voorziening Centraal aanmelden](https://mbovoorzieningen.nl/voorzieningen/voorziening-centraal-aanmelden/) | | Wekelijks | |
 
+## Inschrijvingen en Studievoortgang
 
-## Instellingspecifiek
-
-| Bron | Gegevensproduct | Doelgroep | Doel | Verspreiding Frequentie | URL voor Download | Opmerking(en) |  
-| ------------------------- | --------------- | -------- | ---- | ---------------------- | ---------------- | --- |
-| Centerdata en IVA Onderwijs | Nationale Alumni Enquete (NAE) instellingsbestand | WO | Enquete voor masterstudenten | Om het jaar | https://www.nationale-alumni-enquete.nl/instellingsrapportage/ | Instellingspecifieke data | 
-| Landelijk Centrum Studiekeuze | Nationale Studenten Enquete (NSE) Instellingsbestand | HBO/WO | Tevredenheidsonderzoek studenten | Jaarlijks | https://nse-portal.crowdtech.com/Account/Signin?ReturnUrl=%2F | Instellingspecifieke data |
+| Leverancier | Bron | Onderwijstype | Doel | Documentatie URL | CEDA repository | Frequentie | Publieke informatieproducten |
+|-------------|------|---------------|------|-----------------|-----------------|-------------|----------------------------|
+| DUO | ROD 1CijferHO | HBO, WO | Instroom, inschrijvingen en diploma's | [DUO - ROD Controle studentgegevens](https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/bron-controleren/bekostigingsstatus-studenten.jsp)| [CEDA Pythong Package](https://github.com/cedanl/eencijfer), [CEDA Power BI dashboard](https://github.com/ed2c/1cho_ins_visualisation_powerbi), [CEDA R Preparatie](https://github.com/cedanl/1cho_ins_preparation_r)| Jaarlijks begin februari | | [DUO - Geaggregeerde data en voorspellingen](https://www.duo.nl/open_onderwijsdata/hoger-onderwijs/aantal-studenten/) , [UNL WO downloads](https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten)
+| DUO | ROD Bekostiging | HBO, WO | Bekostigingsstatus van studenten | [DUO - ROD Bekostigingsstatus](https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/bron-controleren/bekostigingsstatus-studenten.jsp) | [CEDA Wisselstroom](https://github.com/cedanl/wisselstroom), [CEDA Wisselstroom demo](https://github.com/cedanl/wisselstroom_demo) | Jaarlijks | |
+| DUO | Bekostiging MBO | MBO | Bekostigingsstatus van studenten | [DUO - MBO Bekostigingsstatus](https://duo.nl/zakelijk/middelbaar-beroepsonderwijs/bekostiging-en-subsidies/bekostiging-mbo/bekostiging-mbo.jsp) | | Jaarlijks | |
 
 
-# Financiële en personeel data
+## Studententevredenheid
 
+| Leverancier | Bron | Onderwijstype | Doel | Documentatie URL | CEDA repository | Frequentie | Publieke informatieproducten |
+|-------------|------|---------------|------|-----------------|-----------------|-------------|----------------------------|
+| Landelijk Centrum Studiekeuze | NSE | HBO, WO | Tevredenheidsonderzoek studenten | [NSE - Informatie](https://lcsk.nl/nse/resultaten/) | | Jaarlijks | [NSE - Landelijk dashboards](https://lcsk.nl/nse/resultaten/dashboard/) |
+| JBO MBO | JOB monitor | MBO | Tevredenheidsonderzoek studenten | [JOB - Rapport](https://www.jobmbo.nl/monitor/) | | Jaarlijks | [JOB - Resultaten](https://www.jobmonitorresultaten.nl/) |
 
-| Bron | Gegevensproduct | Doelgroep | Doel | Verspreiding Frequentie | URL voor Download | Opmerking(en) |  
-| ------------------------- | --------------- | -------- | ---- | ---------------------- | ---------------- | --- |
-| DUO | XBRL | HBO | Financiën hogescholen | Jaarlijks half oktober | | |
-| DUO | raho | HBO | Personeel hogescholen | Jaarlijks voorjaar | | |
-| UNL | Gegevens personeel | WO | Geaggregeerde personeelsgegevens | Jaarlijks | https://www.universiteitenvannederland.nl/downloadbare-gegevens-personeel | |
+## Alumni en arbeidsmarkt
 
+| Leverancier | Bron | Onderwijstype | Doel | Documentatie URL | CEDA repository | Frequentie | Publieke informatieproducten |
+|-------------|------|---------------|------|-----------------|-----------------|-------------|----------------------------|
+| Centerdata/IVA | NAE | WO | Arbeidsmarkt enquete | [NAE - Informatie](https://www.nationale-alumni-enquete.nl/algemene-informatie/) | | Om het jaar | |
+| ROA | HBO-monitor | HBO | Arbeidsmarkt enquete | [HBO monitor - Informatie](https://www.hbomonitor.nl/nl/hogescholen/algemene-informatie) | | Jaarlijks half april | [HBO monitor rapportage](https://www.hbomonitor.nl/nl/resultaten/kansen-op-de-arbeidsmarkt) |
+| CINOP | G4-Schoolverlatersonderzoek | MBO | Arbeidsmarkt obv CBS |  | | Jaarlijks |  |
 
+# Institutionele Data
 
-# Data
+## Financiële gegevens
 
+| Leverancier | Bron | Onderwijstype | Doel | Documentatie URL | CEDA repository | Frequentie | Publieke informatieproducten |
+|-------------|------|---------------|------|-----------------|-----------------|-------------|----------------------------|
+| DUO | XBRL | HBO | Financiën hogescholen | | | Jaarlijks half oktober | |
 
-| Bron | Gegevensproduct | Doelgroep | Doel | Verspreiding Frequentie | URL voor Download | Opmerking(en) |  
-| ------------------------- | --------------- | -------- | ---- | ---------------------- | ---------------- | --- |
-| DUO | 1-cijferHO | HBO/WO | Instroom, Inschrijvingen en diploma's met peildatum 1 oktober | Jaarlijks begin februari | | |
-| DUO | 1-cijferHO | HBO/WO | Studiesucces, uitval en studiewissel | Jaarlijks begin april | | |
-| DUO | Adressen instellingen | HBO/WO | Adressen | Jaarlijks | https://www.duo.nl/open_onderwijsdata/hoger-onderwijs/adressen/ | |
-| DUO | RIO (Registratie Instellingen en Opleidingen) | MBO/HBO/WO | Gegevens geaccrediteerde opleidingen (voorheen CROHO) | Jaarlijks half oktober | https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/opleidingsgegevens-in-croho/raadplegen-en-downloaden.jsp | |
-| DUO | Register Onderwijsdeelnemers (ROD) | MBO/HBO/WO | Bekostigingsstatus van studenten van uw instelling | Jaarlijks | https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/bron-controleren/bekostigingsstatus-studenten.jsp | |
-| DUO | Studentgegevens | HBO/WO | Studentdata | Jaarlijks | https://www.duo.nl/open_onderwijsdata/hoger-onderwijs/aantal-studenten/ | |
-| DUO/UNL | Diploma's | WO | Diploma's per academisch jaar | Onbekend | https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten | |
-| DUO/UNL | Ingeschreven studenten per 1 oktober | WO | Ingeschreven studenten per 1 oktober | Onbekend | https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten | |
-| DUO/UNL | Instroom bachelor | WO | Instroomgegevens bachelor | Onbekend | https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten | |
-| DUO/UNL | Instroom master | WO | Instroomgegevens master | Onbekend | https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten | |
-| Onderwijsinspecite | Overzicht sectorindeling ho | HBO/WO | Sectoren van opleidingen | Onbekend | https://www.onderwijsinspectie.nl/documenten/publicaties/2023/02/14/overzicht-sectorindeling-ho | |
-| ROA | hbo-monitor | HBO | Arbeidsmarkt | Jaarlijks half april | | |
+## Personeelsgegevens
 
+| Leverancier | Bron | Onderwijstype | Doel | Documentatie URL | CEDA repository | Frequentie | Publieke informatieproducten |
+|-------------|------|---------------|------|-----------------|-----------------|-------------|----------------------------|
+| DUO | RAHO | HBO | Personeel hogescholen | | | Jaarlijks voorjaar | |
+| UNL | Gegevens personeel | WO | Geaggregeerde personeelsgegevens | https://www.universiteitenvannederland.nl/downloadbare-gegevens-personeel | | Jaarlijks | |
 
+## Instellingsregistraties
+
+| Leverancier | Bron | Onderwijstype | Doel | Documentatie URL | CEDA repository | Frequentie | Publieke informatieproducten |
+|-------------|------|---------------|------|-----------------|-----------------|-------------|----------------------------|
+| DUO | RIO | MBO/HBO/WO | Gegevens geaccrediteerde opleidingen | https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/opleidingsgegevens-in-croho/raadplegen-en-downloaden.jsp | | Jaarlijks half oktober | |
+| Onderwijsinspectie | Sectorindeling HO | HBO/WO | Sectoren van opleidingen | https://www.onderwijsinspectie.nl/documenten/publicaties/2023/02/14/overzicht-sectorindeling-ho | | Onbekend | |
+
+## Adresgegevens
+
+| Leverancier | Bron | Onderwijstype | Doel | Documentatie URL | CEDA repository | Frequentie | Publieke informatieproducten |
+|-------------|------|---------------|------|-----------------|-----------------|-------------|----------------------------|
+| DUO | Adressen instellingen | HBO/WO | Adressen | https://www.duo.nl/open_onderwijsdata/hoger-onderwijs/adressen/ | | Jaarlijks | |
 
 # Addendum
 
-Additionele informatie over bovenstaande tabel staan in het addendum
+Voor de NSE heeft Landelijk Centrum Studiekeuze een planning overzicht met tijdlijn:
+- [Planning 2024/25](https://lcsk.nl/wp-content/uploads/2024/09/NSE-2025-planning-extern.pdf)
 
-## NSE
-Voor de NSE heeft Landelijk Centrum Studiekeuze ook een planning overzicht met tijdlijn:
-
-Zie hier de planning voor academisch jaar [2024/25](https://lcsk.nl/wp-content/uploads/2024/09/NSE-2025-planning-extern.pdf)
-
-## Kalender informatieproducten van de Vereniging Hogescholen
-
-Bovenstaande tabel is aangevuld met informatie die gevonden is op de [kalender informatieproducten](https://www.vereniginghogescholen.nl/kennisbank/documentatie/artikelen/kalender-informatieproducten) van de "Vereniging Hogescholen".
+Bovenstaande informatie is aangevuld met gegevens van de [kalender informatieproducten](https://www.vereniginghogescholen.nl/kennisbank/documentatie/artikelen/kalender-informatieproducten) van de Vereniging Hogescholen.
