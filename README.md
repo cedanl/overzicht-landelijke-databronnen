@@ -2,7 +2,22 @@
 Een overzicht van beschikbare data uit landelijke (en dus uniforme) bronnen voor onderwijsinstellingen.
 
 ## Inhoudsopgave
-[...]
+
+# Landelijke data
+Een overzicht van beschikbare data in het onderwijs
+
+## Inhoudsopgave
+- [Studentgegevens & Onderwijs](#studentgegevens--onderwijs)
+  - [Instroom](#instroom)
+  - [Inschrijvingen en Studievoortgang](#inschrijvingen-en-studievoortgang)
+  - [Studententevredenheid](#studententevredenheid)
+  - [Alumni en arbeidsmarkt](#alumni-en-arbeidsmarkt)
+- [Institutionele Data](#institutionele-data)
+  - [Financiële gegevens](#financiële-gegevens)
+  - [Personeelsgegevens](#personeelsgegevens)
+  - [Instellingsregistraties](#instellingsregistraties)
+  - [Adresgegevens](#adresgegevens)
+
 
 # Studentgegevens & Onderwijs
 
