@@ -1,5 +1,5 @@
 # Landelijke data bronnen
-"Goh, ik wist helemaal niet dat dit bestand beschikbaar was!" of "Hebben we ook zoiets voor het MBO?" horen we regelmatig bij CEDA workshops. Er is veel data beschikbaar voor onderwijstellingen, maar soms ontbreekt het overzicht. 
+"Interessant, waar komt de onderliggende data vandaan?" of "Hebben we ook zoiets voor het MBO?" horen we regelmatig bij CEDA workshops. Er is veel data beschikbaar voor onderwijstellingen, maar soms ontbreekt het overzicht. 
 
 Daarom nu een overzicht van beschikbare data uit landelijke (en dus uniforme) bronnen voor onderwijsinstellingen. Deze bronnen bieden de mogelijkheid tot benchmarking (soms wordt dit ook expliciet aangeboden). Daarnaast zijn er vaak instellingsbestanden beschikbaar die per instelling er dus hetzelfde uitzien. Dat biedt mogelijkheden voor het gebruik van deze code en logic om deze te bewerken naar informatieproducten zoals voorspelmodellen, statistische diagnoses en dashboards.
 
