@@ -87,7 +87,6 @@ Dit is een eerste versie, vul vooral aan! Dit kan door middel van een issue of e
 
 Het team Education Analytics op de Vrije Universiteit Amsterdam heeft een collectie (de VusaVerse) aan R packages ontwikkeld, waaronder voor API's.
 
-Ben jij het hier mee eens?
 
 | Leverancier | Bron | Onderwijstype | Doel | Documentatie URL | VusaVerse repository | Frequentie | Publieke informatieproducten | 
 |-------------|------|---------------|------|-----------------|-----------------|-------------|----------------------------|
