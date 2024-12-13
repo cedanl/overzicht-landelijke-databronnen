@@ -81,3 +81,16 @@ Dit is een eerste versie, vul vooral aan! Dit kan door middel van een issue of e
 | DUO | Adressen instellingen | HBO, WO | Adressen | https://www.duo.nl/open_onderwijsdata/hoger-onderwijs/adressen/ | | Jaarlijks | |
 
 
+
+
+# Externe software bronnen met Vusaverse package
+
+Het team Education Analytics op de Vrije Universiteit Amsterdam heeft een collectie (de VusaVerse) aan R packages ontwikkeld, waaronder voor API's.
+
+Ben jij het hier mee eens?
+
+| Leverancier | Bron | Onderwijstype | Doel | Documentatie URL | VusaVerse repository | Frequentie | Publieke informatieproducten | 
+|-------------|------|---------------|------|-----------------|-----------------|-------------|----------------------------|
+| Instructure | Canvas LMS | MBO, HBO, WO | Leer management systeem | [API documentatie](https://canvas.instructure.com/doc/api/all_resources.html) | [R package vvcanvas](https://github.com/vusaverse/vvcanvas) | Real-Time |  |
+| Semestry | Termtime | MBO, HBO, WO | Roostering |   | [R package vvtermtime](https://github.com/vusaverse/vvtermtime) | Real-Time | |
+
