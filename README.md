@@ -7,6 +7,7 @@ Dit is een eerste versie, vul vooral aan! Dit kan door middel van een issue of e
 
 
 ## Inhoudsopgave
+- [Algemene Data Overzichten](#algemene-data-overzichten)
 - [Studentgegevens & Onderwijs](#studentgegevens--onderwijs)
   - [Instroom](#instroom)
   - [Inschrijvingen en Studievoortgang](#inschrijvingen-en-studievoortgang)
@@ -17,6 +18,14 @@ Dit is een eerste versie, vul vooral aan! Dit kan door middel van een issue of e
   - [Personeelsgegevens](#personeelsgegevens)
   - [Instellingsregistraties](#instellingsregistraties)
   - [Adresgegevens](#adresgegevens)
+
+
+# Algemene data overzichten
+
+| Leverancier | Bron | Onderwijstype | Doel | Documentatie URL | CEDA repository | Frequentie | Publieke informatieproducten |
+|-------------|------|---------------|------|-----------------|-----------------|-------------|----------------------------|
+| Overheid | Meerdere | Allen | Overzicht alle publieke datasets | [Alle Datasets](https://data.overheid.nl/zoek) |  | | |
+
 
 
 # Studentgegevens & Onderwijs
