@@ -103,5 +103,5 @@ Het team Education Analytics op de Vrije Universiteit Amsterdam heeft een collec
 
 | Leverancier | Bron | Onderwijstype | Doel | Documentatie URL | VusaVerse repository | Frequentie | Publieke informatieproducten | 
 |-------------|------|---------------|------|-----------------|-----------------|-------------|----------------------------|
-| Instructure | Canvas LMS | MBO, HBO, WO | Leer management systeem | [API documentatie](https://canvas.instructure.com/doc/api/all_resources.html) | [R package vvcanvas](https://github.com/vusaverse/vvcanvas) | Real-Time |  |
+| Instructure | Canvas LMS | MBO, HBO, WO | Leer management systeem | [API documentatie](https://developerdocs.instructure.com/services/canvas) | [R package vvcanvas](https://github.com/vusaverse/vvcanvas) | Real-Time |  |
 | Semestry | Termtime | MBO, HBO, WO | Roostering |   | [R package vvtermtime](https://github.com/vusaverse/vvtermtime) | Real-Time | |
