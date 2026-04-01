@@ -1,0 +1,519 @@
+[
+  {
+    "leverancier": "Overheid",
+    "bron": "Meerdere",
+    "onderwijstype": [
+      "Allen"
+    ],
+    "doel": "Overzicht alle publieke datasets",
+    "frequentie": "",
+    "categorie": "Algemene data overzichten",
+    "sectie": "Algemene data overzichten",
+    "documentatie": {
+      "tekst": "Alle Datasets",
+      "url": "https://data.overheid.nl/zoek"
+    },
+    "repositories": [],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "Studielink",
+    "bron": "Studielink Telbestand",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Voorlopige aanmeldingen",
+    "frequentie": "Wekelijks",
+    "categorie": "Instroom",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "Toelichting telbestand",
+      "url": "https://www.tignl.eu/downloads/studielink/pvl%20telbestand%20studielink.pdf"
+    },
+    "repositories": [
+      {
+        "tekst": "CEDA instroomprognose",
+        "url": "https://github.com/cedanl/studentprognose"
+      }
+    ],
+    "publieke_producten": [
+      {
+        "tekst": "UNL - WO bachelor",
+        "url": "https://www.universiteitenvannederland.nl/aanmeldingen-bacheloropleidingen"
+      }
+    ]
+  },
+  {
+    "leverancier": "MBO Voorzieningen",
+    "bron": "CAMBO",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Voorlopige aanmeldingen",
+    "frequentie": "Wekelijks",
+    "categorie": "Instroom",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "Voorziening Centraal aanmelden",
+      "url": "https://mbovoorzieningen.nl/voorzieningen/voorziening-centraal-aanmelden/"
+    },
+    "repositories": [],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "DUO",
+    "bron": "ROD 1CijferHO",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Instroom, inschrijvingen en diploma's",
+    "frequentie": "Jaarlijks begin februari",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "DUO - ROD Controle studentgegevens",
+      "url": "https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/rod-controleren/bekostigingsstatus-studenten.jsp"
+    },
+    "repositories": [
+      {
+        "tekst": "CEDA Python Package",
+        "url": "https://github.com/cedanl/eencijfer"
+      },
+      {
+        "tekst": "CEDA Power BI dashboard",
+        "url": "https://github.com/cedanl/1cho_ins_visualisation_powerbi"
+      },
+      {
+        "tekst": "CEDA R Preparatie",
+        "url": "https://github.com/cedanl/1cho_ins_preparation_r"
+      }
+    ],
+    "publieke_producten": [
+      {
+        "tekst": "DUO - Geaggregeerde data en voorspellingen",
+        "url": "https://www.duo.nl/open_onderwijsdata/hoger-onderwijs/aantal-studenten/"
+      },
+      {
+        "tekst": "VH - HBO Inschrijvingen",
+        "url": "https://www.vereniginghogescholen.nl/kennisbank/feiten-en-cijfers/artikelen/dashboard-instroom-inschrijvingen-en-diploma-s"
+      },
+      {
+        "tekst": "VH - HBO Studiesucces",
+        "url": "https://www.vereniginghogescholen.nl/kennisbank/feiten-en-cijfers/artikelen/dashboard-instroom-inschrijvingen-en-diploma-s"
+      },
+      {
+        "tekst": "UNL WO downloads",
+        "url": "https://www.universiteitenvannederland.nl/downloadbare-gegevens-studenten"
+      }
+    ]
+  },
+  {
+    "leverancier": "DUO",
+    "bron": "ROD Bekostiging",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Bekostigingsstatus van studenten",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "DUO - ROD Bekostigingsstatus",
+      "url": "https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/bron-controleren/bekostigingsstatus-studenten.jsp"
+    },
+    "repositories": [
+      {
+        "tekst": "CEDA Wisselstroom",
+        "url": "https://github.com/cedanl/wisselstroom"
+      },
+      {
+        "tekst": "CEDA Wisselstroom demo",
+        "url": "https://github.com/cedanl/wisselstroom_demo"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "DUO",
+    "bron": "Bekostiging MBO",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Bekostigingsstatus van studenten",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "DUO - MBO Bekostigingsstatus",
+      "url": "https://duo.nl/zakelijk/middelbaar-beroepsonderwijs/bekostiging-en-subsidies/bekostiging-mbo/bekostiging-mbo.jsp"
+    },
+    "repositories": [],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "DUO",
+    "bron": "Referentieraming OCW",
+    "onderwijstype": [
+      "MBO",
+      "HBO",
+      "WO"
+    ],
+    "doel": "Prognoses verwachte aantal studenten per onderwijsinstelling",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "Instellingsprognoses mbo en ho",
+      "url": "https://duo.nl/open_onderwijsdata/nieuws/instellingsprognoses-po-vo-mbo-en-ho-beschikbaar.jsp"
+    },
+    "repositories": [],
+    "publieke_producten": [
+      {
+        "tekst": "Dashboard MBO prognose",
+        "url": "https://informatieproducten.duo.rijkscloud.nl/public/instellingsprognosesmbo/"
+      }
+    ]
+  },
+  {
+    "leverancier": "DUO",
+    "bron": "DUO Open onderwijsdata",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Dashboards voortijdig schoolverlaten en jongeren in een kwetsbare positie",
+    "frequentie": "2x per jaar",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "Dashboards vsv en jikp",
+      "url": "https://informatieproducten.duo.rijkscloud.nl/public/dashboardvsvopen/"
+    },
+    "repositories": [],
+    "publieke_producten": [
+      {
+        "tekst": "Dashboards vsv en jikp",
+        "url": "https://informatieproducten.duo.rijkscloud.nl/public/dashboardvsvopen/"
+      }
+    ]
+  },
+  {
+    "leverancier": "DUO",
+    "bron": "SBB/RIO",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Erkende opleidingscodes",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "Erkende opleidingscodes - Middelbaar beroepsonderwijs",
+      "url": "https://www.duo.nl/open_onderwijsdata/middelbaar-beroepsonderwijs/erkende-opleidingen/erkende-opleidingscode-en-beroep.jsp"
+    },
+    "repositories": [],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "DUO",
+    "bron": "DUO",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Databestanden macro-doelmatigheid, instroom en switch",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "Mijn DUO",
+      "url": "https://zakelijk.duo.nl/zakelijk/portaal/dashboard"
+    },
+    "repositories": [],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "MBO Raad",
+    "bron": "",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Financieel en medewerkers, en studiesucces",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "MBObenchmark",
+      "url": "https://mbobenchmark.nl/Mosaic/login.aspx?returnUrl=%2Fmosaic%2Fdashboard"
+    },
+    "repositories": [],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "Landelijk Centrum Studiekeuze",
+    "bron": "NSE",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Tevredenheidsonderzoek studenten",
+    "frequentie": "Jaarlijks",
+    "categorie": "Studententevredenheid",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "NSE - Informatie",
+      "url": "https://lcsk.nl/nse/resultaten/"
+    },
+    "repositories": [],
+    "publieke_producten": [
+      {
+        "tekst": "NSE - Landelijk dashboards",
+        "url": "https://lcsk.nl/nse/resultaten/dashboard/"
+      }
+    ]
+  },
+  {
+    "leverancier": "JBO MBO",
+    "bron": "JOB monitor",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Tevredenheidsonderzoek studenten",
+    "frequentie": "Jaarlijks",
+    "categorie": "Studententevredenheid",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "JOB - Rapport",
+      "url": "https://www.jobmbo.nl/monitor/"
+    },
+    "repositories": [],
+    "publieke_producten": [
+      {
+        "tekst": "JOB - Resultaten",
+        "url": "https://www.jobmonitorresultaten.nl/"
+      }
+    ]
+  },
+  {
+    "leverancier": "Centerdata/IVA",
+    "bron": "NAE",
+    "onderwijstype": [
+      "WO"
+    ],
+    "doel": "Alumni enquete",
+    "frequentie": "Om het jaar",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "NAE - Informatie",
+      "url": "https://www.nationale-alumni-enquete.nl/algemene-informatie/"
+    },
+    "repositories": [],
+    "publieke_producten": [
+      {
+        "tekst": "UNL - WO NAE",
+        "url": "https://www.universiteitenvannederland.nl/onderwerpen/onderwijs/nationale-alumni-enquete"
+      }
+    ]
+  },
+  {
+    "leverancier": "ROA",
+    "bron": "HBO-monitor",
+    "onderwijstype": [
+      "HBO"
+    ],
+    "doel": "Alumni enquete",
+    "frequentie": "Jaarlijks half april",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "HBO monitor - Informatie",
+      "url": "https://www.hbomonitor.nl/nl/hogescholen/algemene-informatie"
+    },
+    "repositories": [],
+    "publieke_producten": [
+      {
+        "tekst": "HBO monitor rapportage",
+        "url": "https://www.hbomonitor.nl/nl/resultaten/kansen-op-de-arbeidsmarkt"
+      }
+    ]
+  },
+  {
+    "leverancier": "CINOP",
+    "bron": "G4-Schoolverlatersonderzoek",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Arbeidsmarkt obv CBS",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": null,
+    "repositories": [],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "DUO",
+    "bron": "XBRL",
+    "onderwijstype": [
+      "HBO"
+    ],
+    "doel": "Financiën hogescholen",
+    "frequentie": "Jaarlijks half oktober",
+    "categorie": "Financiële gegevens",
+    "sectie": "Institutionele Data",
+    "documentatie": null,
+    "repositories": [],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "DUO",
+    "bron": "RAHO",
+    "onderwijstype": [
+      "HBO"
+    ],
+    "doel": "Personeel hogescholen",
+    "frequentie": "Jaarlijks voorjaar",
+    "categorie": "Personeelsgegevens",
+    "sectie": "Institutionele Data",
+    "documentatie": null,
+    "repositories": [],
+    "publieke_producten": [
+      {
+        "tekst": "VH - HBO Personeel",
+        "url": "https://www.vereniginghogescholen.nl/kennisbank/feiten-en-cijfers/artikelen/dashboard-personeel"
+      }
+    ]
+  },
+  {
+    "leverancier": "UNL",
+    "bron": "WOPI",
+    "onderwijstype": [
+      "WO"
+    ],
+    "doel": "Geaggregeerde personeelsgegevens",
+    "frequentie": "Jaarlijks",
+    "categorie": "Personeelsgegevens",
+    "sectie": "Institutionele Data",
+    "documentatie": {
+      "tekst": "Documentatie",
+      "url": "https://www.universiteitenvannederland.nl/downloadbare-gegevens-personeel"
+    },
+    "repositories": [],
+    "publieke_producten": [
+      {
+        "tekst": "UNL - WO Aantallen",
+        "url": "https://www.universiteitenvannederland.nl/onderwerpen/personeel/personeel-in-dienst-van-universiteiten"
+      },
+      {
+        "tekst": "UNL - WO Verhouding vast en tijdelijk",
+        "url": "https://www.universiteitenvannederland.nl/onderwerpen/personeel/verhouding-vast-en-tijdelijk-personeel"
+      },
+      {
+        "tekst": "UNL - WO Herkomst personeel",
+        "url": "https://www.universiteitenvannederland.nl/onderwerpen/personeel/herkomst-personeel"
+      }
+    ]
+  },
+  {
+    "leverancier": "DUO",
+    "bron": "RIO",
+    "onderwijstype": [
+      "MBO",
+      "HBO",
+      "WO"
+    ],
+    "doel": "Gegevens geaccrediteerde opleidingen",
+    "frequentie": "Jaarlijks half oktober",
+    "categorie": "Instellingsregistraties",
+    "sectie": "Institutionele Data",
+    "documentatie": {
+      "tekst": "Documentatie",
+      "url": "https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/opleidingsgegevens-in-croho/raadplegen-en-downloaden.jsp"
+    },
+    "repositories": [],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "Onderwijsinspectie",
+    "bron": "Sectorindeling HO",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Sectoren van opleidingen",
+    "frequentie": "Onbekend",
+    "categorie": "Instellingsregistraties",
+    "sectie": "Institutionele Data",
+    "documentatie": {
+      "tekst": "Documentatie",
+      "url": "https://www.onderwijsinspectie.nl/documenten/2023/02/14/overzicht-sectorindeling-ho"
+    },
+    "repositories": [],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "DUO",
+    "bron": "Adressen instellingen",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Adressen",
+    "frequentie": "Jaarlijks",
+    "categorie": "Adresgegevens",
+    "sectie": "Institutionele Data",
+    "documentatie": {
+      "tekst": "Documentatie",
+      "url": "https://www.duo.nl/open_onderwijsdata/hoger-onderwijs/adressen/"
+    },
+    "repositories": [],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "Instructure",
+    "bron": "Canvas LMS",
+    "onderwijstype": [
+      "MBO",
+      "HBO",
+      "WO"
+    ],
+    "doel": "Leer management systeem",
+    "frequentie": "Real-Time",
+    "categorie": "Externe software bronnen met Vusaverse package",
+    "sectie": "Externe software bronnen met Vusaverse package",
+    "documentatie": {
+      "tekst": "API documentatie",
+      "url": "https://developerdocs.instructure.com/services/canvas"
+    },
+    "repositories": [
+      {
+        "tekst": "R package vvcanvas",
+        "url": "https://github.com/vusaverse/vvcanvas"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "Semestry",
+    "bron": "Termtime",
+    "onderwijstype": [
+      "MBO",
+      "HBO",
+      "WO"
+    ],
+    "doel": "Roostering",
+    "frequentie": "Real-Time",
+    "categorie": "Externe software bronnen met Vusaverse package",
+    "sectie": "Externe software bronnen met Vusaverse package",
+    "documentatie": null,
+    "repositories": [
+      {
+        "tekst": "R package vvtermtime",
+        "url": "https://github.com/vusaverse/vvtermtime"
+      }
+    ],
+    "publieke_producten": []
+  }
+]

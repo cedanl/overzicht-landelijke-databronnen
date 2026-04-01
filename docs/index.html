@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landelijke Databronnen Onderwijs</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f0f2f5;
+            color: #1a1a2e;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #1a4b8c;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 { font-size: 1.75rem; font-weight: 700; margin-bottom: 0.5rem; }
+
+        header p {
+            font-size: 0.95rem;
+            opacity: 0.85;
+            max-width: 600px;
+            margin: 0 auto 0.75rem;
+        }
+
+        header a {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+        }
+        header a:hover { color: white; }
+
+        /* Controls bar */
+        .controls {
+            background: white;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .controls-inner { max-width: 1200px; margin: 0 auto; }
+
+        .search-input {
+            width: 100%;
+            padding: 0.6rem 1rem;
+            font-size: 1rem;
+            border: 1.5px solid #d0d0d0;
+            border-radius: 6px;
+            outline: none;
+            margin-bottom: 0.75rem;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus { border-color: #1a4b8c; }
+
+        .filter-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            align-items: flex-start;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            align-items: center;
+        }
+
+        .filter-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            white-space: nowrap;
+        }
+
+        .filter-btn {
+            padding: 0.28rem 0.7rem;
+            border: 1.5px solid #d0d0d0;
+            border-radius: 20px;
+            background: white;
+            cursor: pointer;
+            font-size: 0.82rem;
+            color: #555;
+            transition: all 0.15s;
+            white-space: nowrap;
+        }
+        .filter-btn:hover { border-color: #1a4b8c; color: #1a4b8c; }
+        .filter-btn.active { background: #1a4b8c; border-color: #1a4b8c; color: white; }
+
+        /* Onderwijstype active colors */
+        .filter-btn[data-type="MBO"].active { background: #d4380d; border-color: #d4380d; }
+        .filter-btn[data-type="HBO"].active { background: #096dd9; border-color: #096dd9; }
+        .filter-btn[data-type="WO"].active  { background: #389e0d; border-color: #389e0d; }
+
+        /* Main content */
+        .main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.25rem 2rem 3rem;
+        }
+
+        .results-count { font-size: 0.82rem; color: #888; margin-bottom: 1rem; }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1rem;
+        }
+
+        /* Card */
+        .card {
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e4e4e4;
+            padding: 1.1rem 1.25rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.65rem;
+            transition: box-shadow 0.15s;
+        }
+        .card:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.09); }
+
+        .card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+
+        .card-title { font-size: 1rem; font-weight: 600; line-height: 1.3; }
+        .card-sub   { font-size: 0.78rem; color: #999; margin-top: 0.2rem; }
+
+        .badges { display: flex; flex-wrap: wrap; gap: 0.25rem; flex-shrink: 0; }
+        .badge {
+            padding: 0.15rem 0.45rem;
+            border-radius: 4px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+        }
+        .badge-mbo   { background: #fff2e8; color: #d4380d; border: 1px solid #ffbb96; }
+        .badge-hbo   { background: #e6f7ff; color: #096dd9; border: 1px solid #91d5ff; }
+        .badge-wo    { background: #f6ffed; color: #389e0d; border: 1px solid #b7eb8f; }
+        .badge-allen { background: #f5f5f5; color: #595959; border: 1px solid #d9d9d9; }
+
+        .card-doel { font-size: 0.875rem; color: #444; line-height: 1.5; }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.78rem;
+            color: #aaa;
+        }
+
+        .card-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            margin-top: auto;
+            padding-top: 0.6rem;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .link-btn {
+            padding: 0.28rem 0.65rem;
+            border-radius: 4px;
+            font-size: 0.76rem;
+            text-decoration: none;
+            border: 1px solid;
+            transition: all 0.15s;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .link-doc  { color: #1a4b8c; border-color: #adc6ff; background: #f0f5ff; }
+        .link-doc:hover  { background: #1a4b8c; color: white; }
+        .link-repo { color: #389e0d; border-color: #b7eb8f; background: #f6ffed; }
+        .link-repo:hover { background: #389e0d; color: white; }
+        .link-pub  { color: #c41d7f; border-color: #ffadd2; background: #fff0f6; }
+        .link-pub:hover  { background: #c41d7f; color: white; }
+
+        .no-results {
+            text-align: center;
+            color: #bbb;
+            padding: 4rem 1rem;
+            font-size: 1rem;
+            grid-column: 1 / -1;
+        }
+
+        @media (max-width: 640px) {
+            header { padding: 1.25rem 1rem; }
+            .controls { padding: 0.75rem 1rem; }
+            .main { padding: 1rem 1rem 3rem; }
+            .cards-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Landelijke Databronnen Onderwijs</h1>
+    <p>Overzicht van beschikbare data uit landelijke bronnen voor MBO, HBO en WO instellingen</p>
+    <a href="https://github.com/cedanl/overzicht-landelijke-databronnen" target="_blank">Bijdragen of aanvullen via GitHub &rarr;</a>
+</header>
+
+<div class="controls">
+    <div class="controls-inner">
+        <input type="text" id="search" class="search-input" placeholder="Zoek op bron, leverancier of doel…" autocomplete="off">
+        <div class="filter-row">
+            <div class="filter-group">
+                <span class="filter-label">Type</span>
+                <button class="filter-btn active" data-type="alle">Alle</button>
+                <button class="filter-btn" data-type="MBO">MBO</button>
+                <button class="filter-btn" data-type="HBO">HBO</button>
+                <button class="filter-btn" data-type="WO">WO</button>
+            </div>
+            <div class="filter-group" id="cat-filters">
+                <span class="filter-label">Categorie</span>
+                <!-- Filled dynamically -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<main class="main">
+    <p class="results-count" id="results-count"></p>
+    <div class="cards-grid" id="cards">
+        <div class="no-results">Laden…</div>
+    </div>
+</main>
+
+<script>
+let allData = [];
+let activeType = 'alle';
+let activeCategory = 'alle';
+let searchQuery = '';
+
+const badgeClass = { MBO: 'badge-mbo', HBO: 'badge-hbo', WO: 'badge-wo', Allen: 'badge-allen' };
+
+function renderBadges(types) {
+    if (!types || !types.length) return '';
+    return `<div class="badges">${types.map(t =>
+        `<span class="badge ${badgeClass[t] || 'badge-allen'}">${t}</span>`
+    ).join('')}</div>`;
+}
+
+function renderLinks(entry) {
+    const links = [];
+    if (entry.documentatie) {
+        links.push(`<a href="${entry.documentatie.url}" target="_blank" rel="noopener" class="link-btn link-doc">${entry.documentatie.tekst}</a>`);
+    }
+    (entry.repositories || []).forEach(r => {
+        links.push(`<a href="${r.url}" target="_blank" rel="noopener" class="link-btn link-repo">${r.tekst}</a>`);
+    });
+    (entry.publieke_producten || []).forEach(p => {
+        links.push(`<a href="${p.url}" target="_blank" rel="noopener" class="link-btn link-pub">${p.tekst}</a>`);
+    });
+    return links.join('');
+}
+
+function renderCard(entry) {
+    const title = entry.bron || entry.leverancier;
+    const sub   = entry.bron ? entry.leverancier : '';
+    const links = renderLinks(entry);
+    return `
+        <div class="card">
+            <div class="card-top">
+                <div>
+                    <div class="card-title">${title}</div>
+                    ${sub ? `<div class="card-sub">${sub}</div>` : ''}
+                </div>
+                ${renderBadges(entry.onderwijstype)}
+            </div>
+            ${entry.doel ? `<div class="card-doel">${entry.doel}</div>` : ''}
+            <div class="card-footer">
+                <span>${entry.frequentie || ''}</span>
+                <span>${entry.categorie || ''}</span>
+            </div>
+            ${links ? `<div class="card-links">${links}</div>` : ''}
+        </div>`;
+}
+
+function matches(entry) {
+    if (activeType !== 'alle') {
+        const types = entry.onderwijstype || [];
+        if (!types.includes(activeType) && !types.includes('Allen')) return false;
+    }
+    if (activeCategory !== 'alle' && entry.categorie !== activeCategory) return false;
+    if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        const haystack = [entry.bron, entry.leverancier, entry.doel, entry.categorie]
+            .filter(Boolean).join(' ').toLowerCase();
+        if (!haystack.includes(q)) return false;
+    }
+    return true;
+}
+
+function render() {
+    const filtered = allData.filter(matches);
+    document.getElementById('results-count').textContent =
+        `${filtered.length} van ${allData.length} bronnen`;
+    document.getElementById('cards').innerHTML = filtered.length
+        ? filtered.map(renderCard).join('')
+        : '<div class="no-results">Geen resultaten gevonden</div>';
+}
+
+function setupCategoryFilters(data) {
+    const categories = [...new Set(data.map(d => d.categorie).filter(Boolean))];
+    const container = document.getElementById('cat-filters');
+    const allBtn = document.createElement('button');
+    allBtn.className = 'filter-btn active';
+    allBtn.dataset.cat = 'alle';
+    allBtn.textContent = 'Alle';
+    container.appendChild(allBtn);
+
+    categories.forEach(cat => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn';
+        btn.dataset.cat = cat;
+        btn.textContent = cat;
+        container.appendChild(btn);
+    });
+
+    container.addEventListener('click', e => {
+        const btn = e.target.closest('.filter-btn');
+        if (!btn) return;
+        container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeCategory = btn.dataset.cat;
+        render();
+    });
+}
+
+// Type filter
+document.querySelectorAll('[data-type]').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('[data-type]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeType = btn.dataset.type;
+        render();
+    });
+});
+
+// Search with debounce
+let timer;
+document.getElementById('search').addEventListener('input', e => {
+    clearTimeout(timer);
+    timer = setTimeout(() => { searchQuery = e.target.value.trim(); render(); }, 180);
+});
+
+// Load data
+fetch('data.json')
+    .then(r => r.json())
+    .then(data => {
+        allData = data;
+        setupCategoryFilters(data);
+        render();
+    })
+    .catch(() => {
+        document.getElementById('cards').innerHTML =
+            '<div class="no-results">Kon data niet laden</div>';
+    });
+</script>
+
+</body>
+</html>
