@@ -78,12 +78,20 @@
     },
     "repositories": [
       {
+        "tekst": "CEDA 1cijferho",
+        "url": "https://github.com/cedanl/1cijferho"
+      },
+      {
         "tekst": "CEDA Python Package",
         "url": "https://github.com/cedanl/eencijfer"
       },
       {
         "tekst": "CEDA Power BI dashboard",
         "url": "https://github.com/cedanl/1cho_ins_visualisation_powerbi"
+      },
+      {
+        "tekst": "CEDA Tableau dashboard",
+        "url": "https://github.com/cedanl/1cho_ins_visualisation_tableau"
       },
       {
         "tekst": "CEDA R Preparatie",
