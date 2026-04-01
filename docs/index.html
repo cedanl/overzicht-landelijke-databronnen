@@ -37,6 +37,31 @@
         }
         header a:hover { color: white; }
 
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-top: 1rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            font-size: 0.78rem;
+            color: rgba(255,255,255,0.75);
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
+        .legend-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 3px;
+            flex-shrink: 0;
+        }
+
         /* Controls bar */
         .controls {
             background: white;
@@ -213,6 +238,20 @@
     <h1>Landelijke Databronnen Onderwijs</h1>
     <p>Overzicht van beschikbare data uit landelijke bronnen voor MBO, HBO en WO instellingen</p>
     <a href="https://github.com/cedanl/overzicht-landelijke-databronnen" target="_blank">Bijdragen of aanvullen via GitHub &rarr;</a>
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-dot" style="background:#1a4b8c; border: 1px solid #adc6ff;"></div>
+            Documentatie
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background:#389e0d; border: 1px solid #b7eb8f;"></div>
+            Repository (code)
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background:#c41d7f; border: 1px solid #ffadd2;"></div>
+            Publiek informatieproduct
+        </div>
+    </div>
 </header>
 
 <div class="controls">
