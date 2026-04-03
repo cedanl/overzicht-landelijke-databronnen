@@ -259,6 +259,387 @@
     "publieke_producten": []
   },
   {
+    "leverancier": "CBS",
+    "bron": "Mbo; studenten, niveau, leerweg, studierichting, regiokenmerken",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Aantal MBO-studenten uitgesplitst naar niveau (1-4), leerweg (BOL/BBL), studierichting en regio. Het meest complete MBO-inschrijvingsoverzicht voor regionale en sectorale analyses.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85353NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85353NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Mbo; studenten naar niveau, leerweg, herkomst",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "MBO-studenten uitgesplitst naar niveau, leerweg en herkomstland. Biedt lange tijdreeks voor diversiteitsanalyses en beleid rond gelijke kansen in het MBO.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85354NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85354NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Mbo; studenten naar niveau, leerweg, studierichting, herkomst",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "MBO-studenten gecombineerd naar niveau, leerweg, studierichting én herkomst. Meest gedetailleerde MBO-dataset voor intersectionele analyses van diversiteit en studiekeuze.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85352NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85352NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Instromers mbo; bedrijfstakken 1 jaar eerder",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Toont uit welke bedrijfstakken nieuwe MBO-instromers afkomstig zijn. Relevant voor instellingen die willen begrijpen wie zich aanmeldt vanuit de arbeidsmarkt (met name BBL).",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85574NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85574NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Instromers mbo; maatschappelijke positie 1 jaar eerder, persoonskenmerken",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Maatschappelijke positie van MBO-instromers één jaar voor aanmelding (bijv. werkend, werkzoekend, uit onderwijs). Inzicht in wie de MBO instroomt en vanwaar.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85569NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85569NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Mbo door- en uitstroom, achtergrondkenmerken",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Doorstroom en uitstroom van MBO-studenten van het ene naar het volgende studiejaar, uitgesplitst naar herkomst en geslacht. Inzicht in voortijdig schoolverlaten en overstap.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85519NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85519NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Studeren in het buitenland; studiepuntmobiliteit hbo en wo",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Aandeel HBO- en WO-studenten dat studiepunten in het buitenland haalt. Relevant voor internationaliseringsbeleid en het monitoren van mobiliteitsambities.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85907NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85907NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Wetenschappelijk onderwijs; promoties, studierichting",
+    "onderwijstype": [
+      "WO"
+    ],
+    "doel": "Aantal promoties per studierichting en geslacht in het wetenschappelijk onderwijs. Inzicht in onderzoeksoutput en diversiteit in de academische pipeline.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 83966NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/83966NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Hoger onderwijs; eerste- en ouderejaarsstudenten, studierichting, herkomst",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Ingeschrevenen in het HO uitgesplitst naar eerstejaars/ouderejaars, studierichting en herkomst. Geschikt voor instroomanalyses en diversiteitsmonitoring per richting.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85421NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85421NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Hoger onderwijs; ingeschrevenen, onderwijssoort, opleidingsfase en -vorm",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Totaal ingeschrevenen in HBO en WO per onderwijssoort, opleidingsfase (bachelor/master) en opleidingsvorm (voltijd/deeltijd/duaal). Standaard benchmarkset voor HO-instellingen.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85423NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85423NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Hoger onderwijs; eerstejaarsstudenten, vooropleiding en opleidingsfase",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Eerstejaars in het HO uitgesplitst naar vooropleiding (MBO, HAVO, VWO) en opleidingsfase. Inzicht in doorstroom vanuit het voorgaande onderwijs naar HO.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85422NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85422NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Hoger onderwijs; internationale studenten, nationaliteit",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Aantal internationale studenten in het HO uitgesplitst naar nationaliteit en geslacht. Lange tijdreeks voor internationaliseringsbeleid en monitoring van herkomstlanden.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85124NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85124NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Hoger onderwijs; internationale studenten, onderwijskenmerken",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Internationale studenten in HO uitgesplitst naar verblijfsjaar, studierichting en onderwijssoort. Relevant voor beleid rond instroom, retentie en spreiding van internationals.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85125NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85125NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Hbo-cohorten; eerste hbo-diploma, studierichting",
+    "onderwijstype": [
+      "HBO"
+    ],
+    "doel": "Cohortdata van HBO-starters die bijhoudt hoeveel studenten op verschillende peilmomenten hun eerste HBO-diploma hebben behaald. Standaardset voor diplomarendementsanalyse.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 83286NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/83286NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Ho-cohorten; behaalde hbo- en wo-diploma's",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Cohortdata van HO-starters die bijhoudt hoeveel studenten een HO-diploma behalen op verschillende peilmomenten. Vergelijkt HBO en WO rendement.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 83282NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/83282NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Wo-cohorten; eerste wo-diploma, studierichting",
+    "onderwijstype": [
+      "WO"
+    ],
+    "doel": "Cohortdata van WO-starters die bijhoudt hoeveel studenten hun eerste WO-diploma behalen per studierichting. Geschikt voor rendements- en doorstroomanalyses per vakgebied.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 83285NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/83285NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Wo-cohorten; hoogst behaalde wo-diploma, vooropleiding",
+    "onderwijstype": [
+      "WO"
+    ],
+    "doel": "Welk WO-diploma studenten uiteindelijk behalen, uitgesplitst naar vooropleiding en studiefase bij instroom. Inzicht in doorstroom van bachelor naar master.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Inschrijvingen en Studievoortgang",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 83305NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/83305NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
     "leverancier": "Landelijk Centrum Studiekeuze",
     "bron": "NSE",
     "onderwijstype": [
@@ -359,6 +740,389 @@
     "sectie": "Studentgegevens & Onderwijs",
     "documentatie": null,
     "repositories": [],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Gepromoveerden; ervaringen en duur promotietraject",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Ervaringen van gepromoveerden met hun promotietraject, inclusief werkdruk, ongewenst gedrag en tevredenheid. Relevant voor HR-beleid en integriteitsbeleid binnen onderzoeksinstellingen.",
+    "frequentie": "Onregelmatig",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 86238NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/86238NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Werkzame gepromoveerden; arbeidskenmerken",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Arbeidsmarktpositie van gepromoveerden: contractvorm, voltijdwerk en loondienst. Inzicht in de arbeidsmarktwaarde van een promotie.",
+    "frequentie": "Onregelmatig",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 86240NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/86240NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Mbo; gediplomeerden, niveau, leerweg, studierichting, regiokenmerken",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Aantal gediplomeerden in het MBO per niveau, leerweg, studierichting en regio. Kernset voor diplomarendementsanalyses en regionale arbeidsmarktaansluiting.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85356NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85356NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Mbo; gediplomeerden, niveau, leerweg, studierichting, herkomst",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "MBO-gediplomeerden uitgesplitst naar niveau, leerweg, studierichting en herkomst. Inzicht in diplomarendement per herkomstgroep en kansen op diplomering.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85355NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85355NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Mbo; gediplomeerden, niveau, leerweg, herkomst",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Lange tijdreeks van MBO-gediplomeerden naar niveau, leerweg en herkomst. Geschikt voor trendanalyses van diplomarendement per herkomstgroep over meer dan tien jaar.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85357NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85357NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Ho; gediplomeerden, soort diploma, opleidingsvorm",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Gediplomeerden in het hoger onderwijs naar soort diploma (bachelor/master/ad) en opleidingsvorm (voltijd/deeltijd/duaal). Kernset voor diplomarendementsanalyse in HO.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85424NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85424NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Ho; gediplomeerden, soort diploma, studierichting, herkomst",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "HO-gediplomeerden uitgesplitst naar studierichting, diplomasoort en herkomst. Inzicht in studiesucces per richting en herkomstgroep.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85425NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85425NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Uitstromers mbo; arbeidskenmerken na verlaten onderwijs",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Arbeidskenmerken van MBO-uitstromers (met en zonder diploma) na verlaten van de opleiding. Kernset voor arbeidsmarktaansluiting en VSV-beleidsevaluatie.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85698NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85698NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Uitstromers mbo; arbeidsmarktpositie na verlaten onderwijs",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Arbeidsmarktpositie (werkend/werkzoekend/inactief) van MBO-uitstromers na verlaten onderwijs. Inzicht in succesvolle overgang naar de arbeidsmarkt.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85696NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85696NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Uitstromers mbo; uitkering na verlaten onderwijs",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Uitkeringsontvangers onder MBO-uitstromers na verlaten onderwijs, uitgesplitst naar leeftijd en diplomastatus. Relevant voor beleid rond voortijdig schoolverlaten en sociale zekerheid.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85700NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85700NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Uitstromers mbo met werk; bedrijfstak na verlaten onderwijs",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "In welke bedrijfstakken MBO-uitstromers terechtkomen na verlaten van de opleiding. Inzicht in de match tussen MBO-opleidingen en arbeidsmarkt per sector.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85699NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85699NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Uitstromers mbo werkzaam als werknemers; uurloon na verlaten onderwijs",
+    "onderwijstype": [
+      "MBO"
+    ],
+    "doel": "Uurloon van werkzame MBO-uitstromers na verlaten onderwijs, uitgesplitst naar studierichting en bedrijfstak. Inzicht in de financiële arbeidsmarktwaarde van MBO-diploma's.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 83832NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/83832NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Uitstromers ho; arbeidskenmerken na verlaten onderwijs",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Arbeidskenmerken van HO-uitstromers na verlaten onderwijs, uitgesplitst naar geslacht en diplomastatus. Brede set voor arbeidsmarktaansluitingsanalyses in het hoger onderwijs.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85777NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85777NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Uitstromers ho; arbeidsmarktpositie na verlaten onderwijs",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Arbeidsmarktpositie van HO-uitstromers uitgesplitst naar geslacht, herkomst en diplomastatus. Inzicht in kansen op werk na HO per doelgroep.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85776NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85776NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Uitstromers ho met werk; bedrijfstak na verlaten onderwijs",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "In welke bedrijfstakken werkzame HO-uitstromers terechtkomen, uitgesplitst naar studierichting. Inzicht in aansluiting tussen HO-opleidingen en arbeidsmarkt per sector.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85778NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85778NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Uitstromers ho; uitkering na verlaten onderwijs",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Uitkeringsontvangers onder HO-uitstromers na verlaten onderwijs. Inzicht in kwetsbaarheid op de arbeidsmarkt, ook voor internationale studenten.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 85779NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/85779NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
+    "publieke_producten": []
+  },
+  {
+    "leverancier": "CBS",
+    "bron": "Uitstromers ho werkzaam als werknemers; uurloon na verlaten onderwijs",
+    "onderwijstype": [
+      "HBO",
+      "WO"
+    ],
+    "doel": "Uurloon van werkzame HO-uitstromers uitgesplitst naar studierichting en bedrijfstak. Inzicht in de financiële arbeidsmarktwaarde van HO-diploma's per richting.",
+    "frequentie": "Jaarlijks",
+    "categorie": "Alumni en arbeidsmarkt",
+    "sectie": "Studentgegevens & Onderwijs",
+    "documentatie": {
+      "tekst": "CBS Open Data 83815NED",
+      "url": "https://opendata.cbs.nl/ODataApi/OData/83815NED"
+    },
+    "repositories": [
+      {
+        "tekst": "cedanl/cbs-onderwijsdata",
+        "url": "https://github.com/cedanl/cbs-onderwijsdata"
+      }
+    ],
     "publieke_producten": []
   },
   {
